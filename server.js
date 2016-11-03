@@ -8,14 +8,14 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/article-one',function(req, res){
-    res.send('Article-one requested and will be served here');
+app.get('/Personal Information',function(req, res){
+    res.send('hi! My name is Farhan');
 });
-app.get('/article-two',function(req, res){
-    res.send('Article-two requested and will be served here');
+app.get('/Hobby',function(req, res){
+    res.send('My Hobby is to outdoor games');
 });
-app.get('/article-three',function(req, res){
-    res.send('Article-three requested and will be served here');
+app.get('/Rules in life',function(req, res){
+    res.send('Fear has only two meaning,forget everything and run or face everything and rise');
 });
 
 app.get('/ui/style.css', function (req, res) {
