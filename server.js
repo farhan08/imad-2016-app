@@ -8,13 +8,13 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/Personal Information',function(req, res){
+app.get('/Personal-Information',function(req, res){
     res.send('hi! My name is Farhan');
 });
 app.get('/Hobby',function(req, res){
     res.send('My Hobby is to play outdoor games');
 });
-app.get('/Rules in life',function(req, res){
+app.get('/Rules-in-life',function(req, res){
     res.send('Fear has only two meaning,forget everything and run or face everything and rise');
 });
 
