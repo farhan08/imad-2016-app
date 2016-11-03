@@ -12,7 +12,7 @@ app.get('/Personal Information',function(req, res){
     res.send('hi! My name is Farhan');
 });
 app.get('/Hobby',function(req, res){
-    res.send('My Hobby is to outdoor games');
+    res.send('My Hobby is to play outdoor games');
 });
 app.get('/Rules in life',function(req, res){
     res.send('Fear has only two meaning,forget everything and run or face everything and rise');
