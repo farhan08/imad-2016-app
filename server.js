@@ -12,10 +12,10 @@ app.get('/Personal-Information',function(req, res){
   res.sendFile(path.join(__dirname, 'ui', 'Personal-Information.html'));  
 });
 app.get('/Hobby',function(req, res){
-    res.send('My Hobby is to play outdoor games');
+    res.sendFile(path.join(__dirname, 'ui', 'Hobby.html'));
 });
 app.get('/Rules-in-life',function(req, res){
-    res.send('Fear has only two meaning,forget everything and run or face everything and rise');
+   res.sendFile(path.join(__dirname, 'ui', 'Rules-in-life.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
