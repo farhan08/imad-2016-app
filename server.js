@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/Personal-Information',function(req, res){
-    res.send('hi! My name is Farhan');
+  res.sendFile(path.join(__dirname, 'ui', 'Personal-Information.html'));  
 });
 app.get('/Hobby',function(req, res){
     res.send('My Hobby is to play outdoor games');
