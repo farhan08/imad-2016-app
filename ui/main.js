@@ -1,9 +1,3 @@
-console.log('Loaded!');
-//move the image.
-var img = document.getElementById('madi');
-img.onclick = function(){
-    img.style.marginLeft= '100px';
-};
 //counter code
 var button= document.getElementById('counter');
 button.onclick= function() {
@@ -26,5 +20,4 @@ button.onclick= function() {
     // make the request
     request.open('GET','http://farhan08.imad.hasura-app.io/counter', true);
     request.send(null);
-    
-};
+    };
